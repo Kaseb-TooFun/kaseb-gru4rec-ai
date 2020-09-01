@@ -6,6 +6,8 @@
 
 ![overview](https://gitlab.com/toofun-group/kaseb-gru4rec-ai/-/blob/master/assets/A%20brief%20history%20of%20AutoML%20platforms.png?raw=true)
 
+<a href="#nni-has-been-released"><img src="assets/A%20brief%20history%20of%20AutoML%20platforms.png" /></a>
+
 
 
 
