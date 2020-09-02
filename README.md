@@ -22,7 +22,7 @@ one are also removed from the test set. After the preprocessing we are left with
 session-based intent prediction systems using Recurrent Neural Networks (RNNs) are often built using off-the-shelf backbones such as GRU or various types of LSTMs. However, these architectures have numerous architecture hyper parameters, and therefore may not be naturally fit the data which may crucially effect the performance of the model. So here we used a automated approach for optimizing the parameters and architecture. To that end we used the recently released Microsoft AutoML framework, called NNI.
 NNI (Neural Network Intelligence) is a lightweight but powerful toolkit to help users automate Feature Engineering, Neural Architecture Search, Hyperparameter Tuning and Model Compression.
 
-#<a href="nni-has-been-released"><img src="assets/overview nni.svg" /></a>
+<a href="nni-has-been-released"><img src="assets/overview nni.svg" /></a>
 
 > Well known mega companies have recently started to give such automated services like: 
 > * Google's Cloud AutoML was announced in January 2018
@@ -70,11 +70,15 @@ Note:
 * Currently NNI on Windows supports local, remote and pai mode. Anaconda or Miniconda is highly recommended to install [NNI on Windows](docs/en_US/Tutorial/InstallationWin.md).
 * If there is any error like `Segmentation fault`, please refer to [FAQ](docs/en_US/Tutorial/FAQ.md). For FAQ on Windows, please refer to [NNI on Windows](docs/en_US/Tutorial/InstallationWin.md#faq).
 
+<a href="nni-has-been-released"><img src="assets/1.PNG" /></a>
+
 
 ## results
 * Training loss is the error on the training set of data. Validation loss is the error after running the validation set of data through the trained network. Train/valid is the ratio between the two. Unexpectedly, as the epochs increase both validation and training error drop.
 * mrr: Mean Reciprocal Rank is a measure to evaluate systems that return a ranked list of answers to queries.
 * Recall: the fraction of the total amount of relevant instances that were actually retrieved.
+
+<a href="nni-has-been-released"><img src="assets/results.png" /></a>
 
 
 
