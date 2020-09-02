@@ -60,10 +60,6 @@ Windows
 python -m pip install --upgrade nni
 ```
 
-If you want to try latest code, please [install NNI](https://nni.readthedocs.io/en/latest/installation.html) from source code.
-
-For detail system requirements of NNI, please refer to [here](https://nni.readthedocs.io/en/latest/Tutorial/InstallationLinux.html#system-requirements) for Linux & macOS, and [here](https://nni.readthedocs.io/en/latest/Tutorial/InstallationWin.html#system-requirements) for Windows.
-
 Note:
 
 * If there is any privilege issue, add `--user` to install NNI in the user directory.
